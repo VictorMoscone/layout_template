@@ -1,3 +1,9 @@
 * {
     margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    /* Using this to remove the default underline for links. */
 }
