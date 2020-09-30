@@ -46,6 +46,39 @@ main {
     float: left;
 }
 
+.top {
+    height: 50%;
+    background-color: red;
+}
+
+.grid1 {
+    height: 50%;
+    width: 50%; 
+    background-color: lavenderblush;
+    float: left;
+}
+
+.grid2 {
+    height: 50%;
+    width: 50%; 
+    background-color: orange;
+    float: left;
+}
+
+.grid3 {
+    height: 50%;
+    width: 50%; 
+    background-color: lawngreen;
+    float: left;
+}
+
+.grid4 {
+    height: 50%;
+    width: 50%; 
+    background-color: slategrey;
+    float: left;
+}
+
 .right {
     background-color: cyan;
     float: right;
@@ -56,9 +89,10 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-        /* the above two bring the item to the center, but only its top left. */
+        /* the above two bring the item to the center, but only its top left point. */
     transform: translate(-50%, -50%);
-        /* this centers the item. */
+        /* this centers the item from the center of the item. */
+        /* Positions, Top, Left, Transform, all are needed to fully center an item */
     background-color: black;
     height: 60px;
     width: 60px;
