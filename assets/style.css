@@ -49,6 +49,21 @@ main {
 .right {
     background-color: cyan;
     float: right;
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+        /* the above two bring the item to the center, but only its top left. */
+    transform: translate(-50%, -50%);
+        /* this centers the item. */
+    background-color: black;
+    height: 60px;
+    width: 60px;
+    /* border-radius: 100%; <-- makes a circle. */
+    border-radius: 15px;
 }
 
 footer {
